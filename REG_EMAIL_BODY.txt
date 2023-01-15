@@ -1,0 +1,19 @@
+Hi ${FirstName} ${LastName}, <br/>
+<br/>
+
+Welcome to RamaIt Family, your registration is almost completed. <br/>
+<br/>
+
+Please Unlock your account using below details. <br/>
+<br/>
+
+Temporary Password : ${TempPassword} <br/>
+
+<a href="http://localHost:4200/unlock?email=${Email}">Click Here to Unlock <a/>
+
+
+<br/>
+
+Thanks, <br/>
+
+Rama It. <br/>

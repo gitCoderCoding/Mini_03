@@ -1,0 +1,12 @@
+Hi ${FirstName}  ${LastName}, <br/>
+<br/>
+
+please find your password below <br/>
+<br/>
+
+Your Password : ${Pwd} <br/>
+<br/>
+
+Thanks, <br/>
+
+Rama it. <br/>
