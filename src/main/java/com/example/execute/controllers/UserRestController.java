@@ -53,5 +53,17 @@ public class UserRestController {
 		String status = service.registerUser(userForm);
 		return new ResponseEntity<>(status, HttpStatus.CREATED);
 	}
+       @GetMapping("/forgotPwd/{email}")
+	public ResponseEntity<String> forgotPwd(@PathVariable String email) {
+		String status = service.forgotPwd(email);
+		return new ResponseEntity<>(status, HttpStatus.OK);
 
+	}
+
+	@PostMapping("/unlock")
+	public ResponseEntity<String> unlockAccount(@RequestBody UnlockAccForm unlockAccForm) {
+		String status = service.unlockAccount(unlockAccForm);
+		return new ResponseEntity<>(status, HttpStatus.OK);
+
+	}
 }
